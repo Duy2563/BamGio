@@ -57,44 +57,18 @@ span{
     border-radius: 10px;
 }
 @media screen and (max-width: 1080px) {
-
+    html{
+        width: 900px;
+        height: 1080px;
+    }
     .container{
-        width: 414px;
-        height: 914px;
+        width: 900px;
+        height: 1080px;
         /* background-color: orange; */
-        border: 1px solid #ffF;
+        border: 1px solid #E0FFFF;
         margin: 300px auto;
         text-align: center;
         
     } 
-    span{
-        font-size: 26px;
-        font-weight: bold;
-        position: relative;
-        top: 40px;
-        margin-right: 5px;
-        color:#ffffa9;
-    } 
-    
-    .button{
-        font-size: 26px;
-        font-weight: bold;
-        float: left;
-        position: relative;
-        left: 30px;
-        margin: 80px auto;
-        margin-right: 40px;
-        border: 2px solid white;
-        padding: 5px 10px;
-        color: #ffffa9;
-        border-radius: 5px;
-    }
-    .button:hover{
-        background-color: #ffffa9;
-        color: #FF9240;
-        transition: 1s;
-        cursor: pointer;
-        border-radius: 10px;
-    }
    
 }
