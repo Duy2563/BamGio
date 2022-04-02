@@ -58,12 +58,12 @@ span{
 }
 @media screen and (max-width: 1080px) {
     html{
-        width: 900px;
-        height: 1080px;
+        width: auto;
+        height: auto;
     }
     .container{
-        width: 900px;
-        height: 1080px;
+        width: 965px;
+        height: 300px;
         /* background-color: orange; */
         border: 1px solid #E0FFFF;
         margin: 300px auto;
